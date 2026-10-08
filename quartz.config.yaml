@@ -135,6 +135,11 @@ plugins:
     layout:
       position: left
       priority: 50
+    options: 
+      title: Explorer 
+      folderClickBehavior: collapse 
+      folderDefaultState: collapsed 
+      useSavedState: true
   - source: "@quartz-community/graph"
     enabled: true
     layout:
